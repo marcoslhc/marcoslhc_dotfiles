@@ -31,13 +31,13 @@ Python
 * [Virtual Environment][]:			`pip install virtualenv`
 * [Django][]:						`pip install django`
 * [Python Imaging Library (PIL)][]:	`pip install pil`
-* [pyMongo][]:	`pip install pymongo`
-* [mongoengine]():															`pip install mongoengine`
+* [pyMongo][]:						`pip install pymongo`
+* [mongoengine]():					`pip install mongoengine`
 
-[Virtual Environment]: 			http://http://pypi.python.org/pypi/virtualenv
-[Django]: 						http://djangoproject.com
+[Virtual Environment]: http://http://pypi.python.org/pypi/virtualenv
+[Django]: http://djangoproject.com
 [Python Imaging Library (PIL)]: http://www.pythonware.com/products/pil/
-[pyMongo]:						http://www.mongodb.org/display/DOCS/Python+Language+Center
+[pyMongo]: http://www.mongodb.org/display/DOCS/Python+Language+Center
 
 Node
 ----
