@@ -3,7 +3,9 @@ Lista de cosas que instalo siempre
 
 Utilities & Package Managers
 --------------------------
-* [Homebrew][]:	
+
+
+### [Homebrew][]: ###
 
 Install from source, then update, then upgrade (Sanity check)
 
@@ -11,10 +13,40 @@ Install from source, then update, then upgrade (Sanity check)
         brew update
         brew upgrade
 
+[Homebrew]:         http://mxcl.github.com/homebrew/
 
-* [wget][]:		`brew install wget --enable-iri`
 
-* [git][]:
+### GNU Tools ###
+
+* [GNU coreutils][]
+\n
+
+        brew install coreutils
+        export $PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+
+
+* [findutils][]:    `brew install findutils`
+* [bash][]:         `brew install bash`
+* [wget][]:         `brew install wget --enable-iri`
+* [ack][]:          `brew install ack`
+
+
+
+### OSX specific tools ###
+
+\n
+
+        brew tap homebrew/dupes
+        brew install homebrew/dupes/grep
+
+
+
+* [rename][]: `brew install rename`
+* [tree][]:   `brew install tree`
+
+
+
+### [git][]: ###
 
 Install from formula, basic config
 
@@ -28,10 +60,18 @@ Install from formula, basic config
 Check the [github help][] to finish setup
 
 
-[Homebrew]:     http://mxcl.github.com/homebrew/
-[wget]:         http://www.gnu.org/software/wget/
-[git]:          http://git-scm.org/
-[github help]:  https://help.github.com/articles/set-up-git
+[GNU coreutils]:    http://www.gnu.org/software/coreutils/
+[findutils]:        http://www.gnu.org/software/findutils/
+[bash]:             http://www.gnu.org/software/bash/
+[wget]:             http://www.gnu.org/software/wget/
+[ack]:              http://betterthangrep.com/
+[rename]:           http://plasmasturm.org/code/rename/
+[tree]:             http://mama.indstate.edu/users/ice/tree/
+[git]:              http://git-scm.org/
+[github help]:      https://help.github.com/articles/set-up-git
+
+
+
 
 
 Python
@@ -73,7 +113,7 @@ Databases
 [mongodb]:  http:/mongodb.org
 
 
-Editors, IDEs, etc.
+Editors, IDEs, Browsers.
 ------------------
 * [Textmate][] (ver el [README.md][textmate_readme]):
 
@@ -114,6 +154,23 @@ Texmate Bundle Application:
 Clean
 
     ninja -t clean
-	
-[Textmate]: https://github.com/textmate/textmate
-[textmate_readme]: https://github.com/textmate/textmate/blob/master/README.md
+
+* [multimarkdown][]:    `brew install multimarkdown`
+* [lynx][]:             `brew install lynx`
+* [webkit2png][]:       `brew install webkit2png`
+
+
+[multimarkdown]:    https://github.com/fletcher/peg-multimarkdown
+[Textmate]:         https://github.com/textmate/textmate
+[textmate_readme]:  https://github.com/textmate/textmate/blob/master/README.md
+[lynx]:             http://lynx.isc.org/
+[webkit2png]:       http://www.paulhammond.org/webkit2png/
+
+
+Libraries, Sources, Boilerplates, Repos, Etc.
+----------------------------------------------
+* [html5boilerplate][]: `git clone https://github.com/h5bp/html5-boilerplate.git`
+* [h5bp Node Build][]:  `curl https://raw.github.com/gist/2359881/install.sh | sh`
+
+[html5boilerplate]: http://html5boilerplate.com/
+[h5bp Node Build]:  https://github.com/h5bp/node-build-script
