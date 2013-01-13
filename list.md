@@ -5,12 +5,12 @@ Utilities & Package Managers
 --------------------------
 * [Homebrew][]:	
 
-
 	`ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"`
 	brew update
 	brew upgrade
 
 * [wget][]:		`brew install wget --enable-iri`
+
 * [git][]:
 
 
