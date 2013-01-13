@@ -14,17 +14,18 @@ Utilities & Package Managers
 * [git][]:
 
 
-	brew install git 
-	git config --global user.name "Your Name Here"
-	# Sets the default name for git to use when you commit
+        brew install git 
+        git config --global user.name "Your Name Here"
+        # Sets the default name for git to use when you commit
 
-	git config --global user.email "your_email@youremail.com"
-	# Sets the default email for git to use when you commit
+        git config --global user.email "your_email@youremail.com"
+        # Sets the default email for git to use when you commit
 
 
 
 [Homebrew]: http://mxcl.github.com/homebrew/
 [wget]:     http://www.gnu.org/software/wget/
+[git]:      http://git-scm.org/
 
 Python
 ------
@@ -56,7 +57,7 @@ Node
 
 Databases
 ---------
-* [mysql][]:    `brew mysql
+* [mysql][]:    `brew mysql`
 * [mongodb][]:  `brew mongodb`
 
 [mysql]:    http://mysql.com
@@ -64,26 +65,32 @@ Databases
 
 Editors, IDEs, etc.
 ------------------
-* [Textmate][]:
+* [Textmate][] (ver el [README.md][textmate_readme]):
 
+Prerequisites:
+
+    brew install ragel boost multimarkdown hg ninja
+
+Clone and Build
 
     git clone https://github.com/textmate/textmate.git  
     cd textmate
     git submodule update --init
     ./configure && ninja
 
+
 `io` Library:
 
-	ninja io                 # Build the io library and run tests.
-	ninja io/coerce          # Build the io library and skip tests.
-	ninja io/clean           # Remove the build folder for the io library.
-	ninja io/headers         # Copy exported headers to $builddir/include.
+    ninja io                 # Build the io library and run tests.
+    ninja io/coerce          # Build the io library and skip tests.
+    ninja io/clean           # Remove the build folder for the io library.
+    ninja io/headers         # Copy exported headers to $builddir/include.
 
 `mate` application (Muy importante recordar este!!)
 
-	ninja mate               # Build the mate executable.
-	ninja mate/run           # Build and run the mate executable.
-	ninja mate/clean         # Remove the build folder for the mate executable.
+    ninja mate               # Build the mate executable.
+    ninja mate/run           # Build and run the mate executable.
+    ninja mate/clean         # Remove the build folder for the mate executable.
 
 Texmate Bundle Application:
 
@@ -99,3 +106,4 @@ Clean
     ninja -t clean
 	
 [Textmate]: https://github.com/textmate/textmate
+[textmate_readme]: https://github.com/textmate/textmate/blob/master/README.md
