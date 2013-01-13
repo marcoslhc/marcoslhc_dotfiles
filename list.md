@@ -5,14 +5,18 @@ Utilities & Package Managers
 --------------------------
 * [Homebrew][]:	
 
-    ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)
-    brew update
-    brew upgrade
+Install from source, then update, then upgrade (Sanity check)
+
+        ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+        brew update
+        brew upgrade
+
 
 * [wget][]:		`brew install wget --enable-iri`
 
 * [git][]:
 
+Install from formula, basic config
 
         brew install git 
         git config --global user.name "Your Name Here"
@@ -21,11 +25,13 @@ Utilities & Package Managers
         git config --global user.email "your_email@youremail.com"
         # Sets the default email for git to use when you commit
 
+Check the [github help][] to finish setup
 
 
-[Homebrew]: http://mxcl.github.com/homebrew/
-[wget]:     http://www.gnu.org/software/wget/
-[git]:      http://git-scm.org/
+[Homebrew]:     http://mxcl.github.com/homebrew/
+[wget]:         http://www.gnu.org/software/wget/
+[git]:          http://git-scm.org/
+[github help]:  https://help.github.com/articles/set-up-git
 
 
 Python
