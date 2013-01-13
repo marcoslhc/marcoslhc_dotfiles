@@ -6,7 +6,7 @@ Utilities & Package Managers
 * [Homebrew][]:	
 
 
-	`ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"`
+	ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 	brew update
 	brew upgrade
 
@@ -27,6 +27,7 @@ Utilities & Package Managers
 [wget]:     http://www.gnu.org/software/wget/
 [git]:      http://git-scm.org/
 
+
 Python
 ------
 * [Virtual Environment][]:          `pip install virtualenv`
@@ -39,6 +40,7 @@ Python
 [Django]:                       http://djangoproject.com
 [Python Imaging Library (PIL)]: http://www.pythonware.com/products/pil/
 [pyMongo]:                      http://www.mongodb.org/display/DOCS/Python+Language+Center
+
 
 Node
 ----
@@ -55,6 +57,7 @@ Node
 [Swig Template Engine]: http://paularmstrong.github.com/swig/
 [Express Framework]:    http://expressjs.com
 
+
 Databases
 ---------
 * [mysql][]:    `brew mysql`
@@ -62,6 +65,7 @@ Databases
 
 [mysql]:    http://mysql.com
 [mongodb]:  http:/mongodb.org
+
 
 Editors, IDEs, etc.
 ------------------
