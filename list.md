@@ -16,10 +16,10 @@ Install from source, then update, then upgrade (Sanity check)
 [Homebrew]:         http://mxcl.github.com/homebrew/
 
 
+
 ### GNU Tools ###
 
 * [GNU coreutils][]
-\n
 
         brew install coreutils
         export $PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
@@ -29,20 +29,23 @@ Install from source, then update, then upgrade (Sanity check)
 * [bash][]:         `brew install bash`
 * [wget][]:         `brew install wget --enable-iri`
 * [ack][]:          `brew install ack`
+* [rename][]: `brew install rename`
+* [tree][]:   `brew install tree`
+
+[GNU coreutils]:    http://www.gnu.org/software/coreutils/
+[findutils]:        http://www.gnu.org/software/findutils/
+[bash]:             http://www.gnu.org/software/bash/
+[wget]:             http://www.gnu.org/software/wget/
+[ack]:              http://betterthangrep.com/
+[rename]:           http://plasmasturm.org/code/rename/
+[tree]:             http://mama.indstate.edu/users/ice/tree/
 
 
 
 ### OSX specific tools ###
 
-\n
-
         brew tap homebrew/dupes
         brew install homebrew/dupes/grep
-
-
-
-* [rename][]: `brew install rename`
-* [tree][]:   `brew install tree`
 
 
 
@@ -60,17 +63,8 @@ Install from formula, basic config
 Check the [github help][] to finish setup
 
 
-[GNU coreutils]:    http://www.gnu.org/software/coreutils/
-[findutils]:        http://www.gnu.org/software/findutils/
-[bash]:             http://www.gnu.org/software/bash/
-[wget]:             http://www.gnu.org/software/wget/
-[ack]:              http://betterthangrep.com/
-[rename]:           http://plasmasturm.org/code/rename/
-[tree]:             http://mama.indstate.edu/users/ice/tree/
 [git]:              http://git-scm.org/
 [github help]:      https://help.github.com/articles/set-up-git
-
-
 
 
 
