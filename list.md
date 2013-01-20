@@ -101,14 +101,14 @@ Node
 
 [mongodb Node Driver]:  http://www.mongodb.org/display/DOCS/node.JS
 [mongodb ORM]:          http://mongoosejs.com/
-[connect]:       
-[epub]:          
-[expresso]:      
-[jshint]:        
-[node-inspector]:
-[phantom]:       
-[recess]:        
-[uglify-js]:     
+[connect]:              http://www.senchalabs.org/connect/       
+[epub]:                 https://github.com/andris9/epub
+[expresso]:             http://visionmedia.github.com/expresso/
+[jshint]:               https://github.com/jshint/jshint
+[node-inspector]:       https://github.com/dannycoates/node-inspector
+[phantom]:              http://phantomjs.org/
+[recess]:               https://github.com/twitter/recess
+[uglify-js]:            https://github.com/mishoo/UglifyJS
 [Less CSS Compiler]:    http://lessjs.org/
 [Swig Template Engine]: http://paularmstrong.github.com/swig/
 [Express Framework]:    http://expressjs.com
