@@ -87,12 +87,28 @@ Node
 
 * [mongodb Node Driver][]:  `npm install -g mongodb`
 * [mongodb ORM][]:          `npm install -g mongoose`
+* [connect][]:              `npm install -g connect
+* [epub][]:                 `npm install -g epub
+* [expresso][]:             `npm install -g expresso
+* [jshint][]:               `npm install -g jshint
+* [node-inspector][]:       `npm install -g node-inspector
+* [phantom][]:              `npm install -g phantom
+* [recess][]:               `npm install -g recess
+* [uglify-js][]:            `npm install -g uglify-js
 * [Less CSS Compiler][]:    `npm install -g less`
 * [Swig Template Engine][]: `npm install -g swig`
 * [Express Framework][]:    `npm install -g express`
 
 [mongodb Node Driver]:  http://www.mongodb.org/display/DOCS/node.JS
 [mongodb ORM]:          http://mongoosejs.com/
+[connect]:       
+[epub]:          
+[expresso]:      
+[jshint]:        
+[node-inspector]:
+[phantom]:       
+[recess]:        
+[uglify-js]:     
 [Less CSS Compiler]:    http://lessjs.org/
 [Swig Template Engine]: http://paularmstrong.github.com/swig/
 [Express Framework]:    http://expressjs.com
