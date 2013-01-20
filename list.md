@@ -87,7 +87,6 @@ Node
 
 * [mongodb Node Driver][]:  `npm install -g mongodb`
 * [mongodb ORM][]:          `npm install -g mongoose`
-* [connect][]:              `npm install -g connect`
 * [epub][]:                 `npm install -g epub`
 * [expresso][]:             `npm install -g expresso`
 * [jshint][]:               `npm install -g jshint`
@@ -97,11 +96,12 @@ Node
 * [uglify-js][]:            `npm install -g uglify-js`
 * [Less CSS Compiler][]:    `npm install -g less`
 * [Swig Template Engine][]: `npm install -g swig`
+* [Connect][]:              `npm install -g connect`
+* [Consolidate][]:          `npm install -g consolidate`
 * [Express Framework][]:    `npm install -g express`
 
 [mongodb Node Driver]:  http://www.mongodb.org/display/DOCS/node.JS
 [mongodb ORM]:          http://mongoosejs.com/
-[connect]:              http://www.senchalabs.org/connect/       
 [epub]:                 https://github.com/andris9/epub
 [expresso]:             http://visionmedia.github.com/expresso/
 [jshint]:               https://github.com/jshint/jshint
@@ -111,6 +111,8 @@ Node
 [uglify-js]:            https://github.com/mishoo/UglifyJS
 [Less CSS Compiler]:    http://lessjs.org/
 [Swig Template Engine]: http://paularmstrong.github.com/swig/
+[Connect]:              http://www.senchalabs.org/connect/       
+[Consolidate]:          https://github.com/visionmedia/consolidate.js
 [Express Framework]:    http://expressjs.com
 
 
