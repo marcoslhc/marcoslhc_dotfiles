@@ -87,14 +87,14 @@ Node
 
 * [mongodb Node Driver][]:  `npm install -g mongodb`
 * [mongodb ORM][]:          `npm install -g mongoose`
-* [connect][]:              `npm install -g connect
-* [epub][]:                 `npm install -g epub
-* [expresso][]:             `npm install -g expresso
-* [jshint][]:               `npm install -g jshint
-* [node-inspector][]:       `npm install -g node-inspector
-* [phantom][]:              `npm install -g phantom
-* [recess][]:               `npm install -g recess
-* [uglify-js][]:            `npm install -g uglify-js
+* [connect][]:              `npm install -g connect`
+* [epub][]:                 `npm install -g epub`
+* [expresso][]:             `npm install -g expresso`
+* [jshint][]:               `npm install -g jshint`
+* [node-inspector][]:       `npm install -g node-inspector`
+* [phantom][]:              `npm install -g phantom`
+* [recess][]:               `npm install -g recess`
+* [uglify-js][]:            `npm install -g uglify-js`
 * [Less CSS Compiler][]:    `npm install -g less`
 * [Swig Template Engine][]: `npm install -g swig`
 * [Express Framework][]:    `npm install -g express`
