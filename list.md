@@ -39,6 +39,7 @@ Node
 * [express](http://expressjs.com/) `npm install -g express`
 * [expresso - ](http://visionmedia.github.com/expresso/) `npm install -g expresso`
 * [grunt-cli](http://gruntjs.com/) `npm install -g grunt-cli`
+* [grunt-contrib](https://github.com/gruntjs/grunt-contrib/issues) `npm install -g grunt-contrib`
 * [jshint](http://www.jshint.com/) `npm install -g jshint`
 * [mocha - JavaScript Test Framework]() `npm install -g mocha`
 * [phantomjs -headless WebKit with JavaScript API]() `npm install -g phantomjs`
